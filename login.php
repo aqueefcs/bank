@@ -5,7 +5,7 @@
 	<?php require 'assets/autoloader.php'; ?>
 	<?php require 'assets/function.php'; ?>
 	<?php
-    $con = new mysqli('localhost','root','','mybank');
+    $con = new mysqli('remotemysql.com','JJCvmoGHpG','zDedCzDbbK','JJCvmoGHpG');
     define('bankName', 'MCB Bank',true);
 	
 		$error = "";
